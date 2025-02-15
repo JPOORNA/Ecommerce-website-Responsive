@@ -59,5 +59,58 @@ A fully responsive, dynamic e-commerce website that allows users to browse, purc
 ---
 
 ## **Project Structure**
-The project is organized as follows:
+
+---
+
+## **Installation & Setup**
+
+### **Prerequisites**
+- Install **XAMPP** to run Apache and MySQL locally.
+
+### **Setup Instructions**
+1. **Clone the Repository:**
+   - Clone this repository to your local machine using Git:
+     ```bash
+     git clone https://github.com/JPOORNA/Ecommerce-website-Responsive.git
+     ```
+
+2. **Start XAMPP:**
+   - Launch XAMPP and start **Apache** and **MySQL**.
+
+3. **Create the Database:**
+   - Open **phpMyAdmin** in your browser (http://localhost/phpmyadmin).
+   - Create a new database (e.g., `ecommerce_db`).
+   - Import the `database.sql` file (located in the repository) into your newly created database.
+
+4. **Configure Database Connection:**
+   - Open the `includes/db_config.php` file and update the database connection settings (username, password, database name).
+
+5. **Run the Website:**
+   - Move the cloned project folder into the `htdocs` directory of your XAMPP installation.
+   - Access the project in your browser by navigating to: `http://localhost/ecommerce`.
+
+---
+
+## **Contributing**
+
+If you’d like to contribute to this project:
+1. Fork the repository to your own GitHub account.
+2. Create a new branch to work on your feature or bug fix.
+3. Make your changes and commit them.
+4. Submit a pull request with a clear explanation of your changes.
+
+---
+
+## **License**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### **Additional Notes:**
+- The website is designed to be easily extensible. You can add features like product search, advanced payment gateway integration, and more.
+- Ensure your server is configured to handle email notifications and other required services for production use.
+
+---
+
 
